@@ -5,7 +5,7 @@ var superagent = require('superagent');
 var moment = require('moment');
 var bot = new Discord.Client();
 
-const token = 'NTk3MzI1MTcxNDA5NTUxMzk5.Xm8-4g.MDpiXBTQI7f4YZhffQQe1tiEeHE';
+const token = process.env.token;
 
 const PREFIX = '.';
 
